@@ -22,7 +22,7 @@ public class UserService extends Thread {
         for (User user : list) {
             System.out.printf(user.getUsername() + "\n");
         }
-//        server.deleteAll(list);
+        server.deleteAll(list);
     }
 
     public static void runable() {
