@@ -26,7 +26,7 @@ public class UserService extends Thread {
     }
 
     public static void runable() {
-        final long timeInteval = 10000;
+        final long timeInteval = 60*60*1000;
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
